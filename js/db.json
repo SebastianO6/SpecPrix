@@ -1,0 +1,153 @@
+[
+    {
+      "team": "Mercedes-AMG Petronas Formula One Team",
+      "drivers": ["Lewis Hamilton", "George Russell"],
+      "car": "W15",
+      "engine": {
+        "name": "Mercedes-AMG F1 M15 E Performance",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    },
+    {
+      "team": "Scuderia Ferrari",
+      "drivers": ["Charles Leclerc", "Carlos Sainz"],
+      "car": "SF-25",
+      "engine": {
+        "name": "Ferrari 067/10",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    },
+    {
+      "team": "Red Bull Racing",
+      "drivers": ["Max Verstappen", "Sergio Perez"],
+      "car": "RB20",
+      "engine": {
+        "name": "Honda RBPT",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    },
+    {
+      "team": "McLaren F1 Team",
+      "drivers": ["Lando Norris", "Oscar Piastri"],
+      "car": "MCL39",
+      "engine": {
+        "name": "Mercedes-AMG M16 E Performance",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    },
+    {
+      "team": "Aston Martin Aramco Cognizant F1 Team",
+      "drivers": ["Fernando Alonso", "Lance Stroll"],
+      "car": "AMR24",
+      "engine": {
+        "name": "Mercedes-AMG F1 M15 E Performance",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    },
+    {
+      "team": "Alpine F1 Team",
+      "drivers": ["Esteban Ocon", "Pierre Gasly"],
+      "car": "A525",
+      "engine": {
+        "name": "Renault E-Tech RE23",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    },
+    {
+      "team": "Williams Racing",
+      "drivers": ["Alexander Albon", "Logan Sargeant"],
+      "car": "FW47",
+      "engine": {
+        "name": "Mercedes-AMG F1 M15 E Performance",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    },
+    {
+      "team": "Visa Cash App RB F1 Team",
+      "drivers": ["Daniel Ricciardo", "Yuki Tsunoda"],
+      "car": "V-CARB 01",
+      "engine": {
+        "name": "Honda RBPT",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    },
+    {
+      "team": "Haas F1 Team",
+      "drivers": ["Kevin Magnussen", "Nico Hülkenberg"],
+      "car": "VF-24",
+      "engine": {
+        "name": "Ferrari 067/10",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    },
+    {
+      "team": "Stake F1 Team Kick Sauber",
+      "drivers": ["Valtteri Bottas", "Zhou Guanyu"],
+      "car": "C44",
+      "engine": {
+        "name": "Ferrari 067/10",
+        "configuration": "1.6L V6 turbo hybrid"
+      },
+      "transmission": "8-speed semi-automatic sequential",
+      "dimensions": {
+        "weight": "798 kg (including driver, excluding fuel)",
+        "wheelbase": "3700 mm"
+      },
+      "tires": "Pirelli 18-inch"
+    }
+  ]
+  
