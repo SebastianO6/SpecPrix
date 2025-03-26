@@ -84,3 +84,7 @@ body {
     text-align: center;
     transition: transform 0.3s ease-in-out; 
 }
+
+#Car-details:hover {
+    transform: scale(1.02); 
+}
