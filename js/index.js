@@ -19,3 +19,14 @@ fetch('db.json')
       carMenu.appendChild(img)
     });
   }
+
+  function handleClick(car) { 
+    document.getElementById('car-image').src = car.car_image;
+    document.getElementById('car-name').textContent = car.car;
+    document.getElementById('team').textContent = car.team;
+    document.getElementById('drivers').textContent = car.drivers.join(", "); 
+    document.getElementById('engine').textContent = car.engine.name + " - " + car.engine.configuration;
+    document.getElementById('transmission').textContent = car.transmission;
+    document.getElementById('dimensions').textContent = "Weight: " + car.dimensions.weight + ", Wheelbase: " + car.dimensions.wheelbase;
+    document.getElementById('tires').textContent = car.tires;
+}
