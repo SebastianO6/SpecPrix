@@ -5,3 +5,9 @@ fetch('db.json')
     displayMenu(data.cars);  
   })
   .catch(error => console.error('Error fetching the JSON:', error));
+
+
+  function displayMenu (cars) {
+    const carMenu = document.getElementById('cars-menu');
+    carMenu.innerHTML = " "
+  }
