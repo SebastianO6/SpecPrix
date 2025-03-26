@@ -10,4 +10,12 @@ fetch('db.json')
   function displayMenu (cars) {
     const carMenu = document.getElementById('cars-menu');
     carMenu.innerHTML = " "
+
+    cars.forEach(car => {
+      let img = document.createElement('img')
+      img.src = car.logo
+      img.alt = car.car
+      img.addEventListener("click", () => handleClick(car))
+      carMenu.appendChild(img)
+    });
   }
