@@ -1,6 +1,7 @@
 fetch('db.json')
   .then(response => response.json()) 
   .then(data => {
-    console.log(data); 
+    console.log(data);  
+    displayMenu(data.cars);  
   })
   .catch(error => console.error('Error fetching the JSON:', error));
