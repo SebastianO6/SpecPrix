@@ -1,10 +1,14 @@
 fetch('db.json')
-  .then(response => response.json()) 
+  .then(response => response.json())
   .then(data => {
-    console.log(data);  
-    displayMenu(data.cars);  
+    console.log(data); 
+    displayMenu(data.cars); 
+    if (data.cars.length > 0) {
+      handleClick(data.cars[0]); 
+    }
   })
   .catch(error => console.error('Error fetching the JSON:', error));
+
 
 
   function displayMenu (cars) {
