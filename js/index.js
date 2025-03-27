@@ -3,7 +3,7 @@ fetch('https://spec-prix-json.vercel.app/cars')
   .then(response => response.json())
   .then(cars => { 
     console.log("Fetched Cars:", cars);
-    displayMenu(cars);
+    displayMenu(cars);  
 
     if (cars.length > 0) {
       handleClick(cars[0]); 
