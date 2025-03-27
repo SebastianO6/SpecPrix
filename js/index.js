@@ -1,10 +1,11 @@
-fetch('db.json')
+fetch('https://spec-prix-json.vercel.app/cars')
   .then(response => response.json())
-  .then(data => {
-    console.log(data); 
-    displayMenu(data.cars); 
-    if (data.cars.length > 0) {
-      handleClick(data.cars[0]); 
+  .then(cars => { 
+    console.log("Fetched Cars:", cars);
+    displayMenu(cars);
+
+    if (cars.length > 0) {
+      handleClick(cars[0]); 
     }
   })
   .catch(error => console.error('Error fetching the JSON:', error));
