@@ -40,20 +40,22 @@ fetch('https://spec-prix-json.vercel.app/cars')
 document.getElementById("form").addEventListener("submit", function (e) {
   e.preventDefault(); 
 
-  const search = document.getElementById("search").value.toLowerCase()
-  fetch("https://spec-prix-json.vercel.app/cars")
-      .then(response => response.json())
+  const query = document.getElementById("search").value.toLowerCase();  
+
+  fetch('https://spec-prix-json.vercel.app/cars')
+      .then(response => response.json()) 
       .then(cars => { 
-          const foundCar = cars.find(car => car.car.toLowerCase().includes(search)); 
+          const foundCar = cars.find(car => car.car.toLowerCase().includes(query)); 
           
           if (foundCar) {
-              handleClick(foundCar); 
+              handleClick(foundCar);  
           } else {
               alert("Car not found! Try another name.");
           }
       })
       .catch(error => console.error("Error fetching cars:", error));
 });
+
 
 document.getElementById("car-image").addEventListener("click", function () {
   this.classList.toggle("enlarged"); 
