@@ -40,7 +40,7 @@ fetch('https://spec-prix-json.vercel.app/cars')
 document.getElementById("form").addEventListener("submit", function (e) {
   e.preventDefault(); 
 
-  const search = document.getElementById("search").value.toLowerCase(); 
+  const search = document.getElementById("search").value.toLowerCase()
       .then(response => response.json())
       .then(cars => {
           const foundCar = cars.find(car => car.car.toLowerCase().includes(search)); 
@@ -54,3 +54,6 @@ document.getElementById("form").addEventListener("submit", function (e) {
       .catch(error => console.error("Error fetching cars:", error));
 });
 
+document.getElementById("car-image").addEventListener("click", function () {
+  this.classList.toggle("enlarged"); 
+});
