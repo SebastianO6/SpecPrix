@@ -56,4 +56,4 @@ document.getElementById("form").addEventListener("submit", function (e) {
 
 document.getElementById("car-image").addEventListener("click", function () {
   this.classList.toggle("enlarged"); 
-});
+})
