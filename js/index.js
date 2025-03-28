@@ -37,4 +37,20 @@ fetch('https://spec-prix-json.vercel.app/cars')
     document.getElementById('tires').textContent = car.tires;
 }
 
+document.getElementById("form").addEventListener("submit", function (e) {
+  e.preventDefault(); 
+
+  const search = document.getElementById("search").value.toLowerCase(); 
+      .then(response => response.json())
+      .then(cars => {
+          const foundCar = cars.find(car => car.car.toLowerCase().includes(search)); 
+          
+          if (foundCar) {
+              handleClick(foundCar); 
+          } else {
+              alert("Car not found! Try another name.");
+          }
+      })
+      .catch(error => console.error("Error fetching cars:", error));
+});
 
