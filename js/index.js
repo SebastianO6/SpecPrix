@@ -41,8 +41,9 @@ document.getElementById("form").addEventListener("submit", function (e) {
   e.preventDefault(); 
 
   const search = document.getElementById("search").value.toLowerCase()
+  fetch("https://spec-prix-json.vercel.app/cars")
       .then(response => response.json())
-      .then(cars => {
+      .then(cars => { 
           const foundCar = cars.find(car => car.car.toLowerCase().includes(search)); 
           
           if (foundCar) {
