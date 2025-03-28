@@ -9,8 +9,9 @@
     --header-font:   "Lora", serif;
 }
 
+
 body {
-    background-image: url('../images/marc-kleen-ftO__H8PlAc-unsplash.jpg');
+    background-image: url('/images/marc-kleen-ftO__H8PlAc-unsplash.jpg');
     background-size: cover;  
     background-repeat: no-repeat;
     background-position: center;
@@ -51,7 +52,7 @@ body {
 
 .about {
     font-family: var(--header-font);
-    font-size: 1.2rem;
+    font-size: 24px;
     color: white;
     text-align: center; 
     max-width: 80%;
@@ -64,7 +65,7 @@ body {
 }
 
 .about h1 {
-    font-size: 2rem;  
+    font-size: 40px;  
     color: var(--primary-color); 
     letter-spacing: 2px;
     margin-bottom: 15px;
@@ -73,7 +74,7 @@ body {
 #Car-details {
     max-width: 800px;
     margin: 40px auto;
-    background: linear-gradient(135deg, rgba(20, 20, 20, 0.95), rgba(40, 40, 40, 0.95)); /* ✅ Sleek dark gradient */
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.95), rgba(40, 40, 40, 0.95));
     border-radius: 15px;
     box-shadow: 0px 10px 25px rgba(255, 2, 2, 0.3); 
     padding: 50px;
@@ -91,7 +92,7 @@ body {
 
 
 #Car-details img {
-    width: 100%;
+    /* width: 100%; */
     max-width: 500px;
     border-radius: 12px;
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2); 
@@ -105,11 +106,7 @@ body {
     margin: 8px 0;
 }
 
-#Car-details p span {
-    font-weight: bold;
-    color: var(--main-red); 
-    text-transform: uppercase;
-}
+
 
 #cars-menu {
     display: flex;               
@@ -136,4 +133,32 @@ body {
 #cars-menu img:hover {
     transform: scale(1.15); 
     box-shadow: 0px 0px 10px rgba(255, 2, 2, 0.7);
+}
+
+
+#form {
+    max-width: 800px;
+    height: 10px;
+    margin: 40px auto;
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.95), rgba(40, 40, 40, 0.95));
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(255, 2, 2, 0.3); 
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out; 
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 2px solid var(--main-red);
+    font-size: 20px;
+    color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0.8);
 }

@@ -36,3 +36,5 @@ fetch('https://spec-prix-json.vercel.app/cars')
     document.getElementById('dimensions').textContent = "Weight: " + car.dimensions.weight + ", Wheelbase: " + car.dimensions.wheelbase;
     document.getElementById('tires').textContent = car.tires;
 }
+
+
